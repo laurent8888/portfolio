@@ -1,0 +1,107 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: linear-gradient(to bottom right, #007BFF, #0056b3);
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Form Container */
+form {
+    background: #ffffff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 30px 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Headings */
+form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0056b3;
+}
+
+/* Inputs */
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input:focus {
+    outline: none;
+    border: 1px solid #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Buttons */
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #007BFF;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+/* Links */
+form a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 15px;
+    transition: color 0.3s;
+}
+
+form a:hover {
+    color: #0056b3;
+}
+
+/* Error Message */
+.error {
+    color: red;
+    margin-bottom: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    form {
+        padding: 20px 15px;
+    }
+
+    form h1 {
+        font-size: 20px;
+    }
+}
