@@ -24,7 +24,7 @@ app.use(
     })
 );
 
-// Database connection pool
+// Database connection pool 
 const db = mysql.createPool({
     host: 'localhost',
     user: 'root',
